@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./css/formating.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <meta charset="UTF-8" />
+        <title>Aufgabe-11</title>
+    </head>
+    <body>
+        <header>
+            <a href="index.html">Home</a>
+            <a href="links.html">Aufgabe 2</a>
+            <a href="gallery.html">Aufgabe 3</a>
+            <a href="multitafel.html">Aufgabe 4</a>
+            <a href="schachbrett.html">Aufgabe 5</a>
+            <a href="design.html">Aufgabe 6</a>
+            <a href="formating.html" clicked>Aufgabe 11</a>
+            <a href="liste.html">Aufgabe 12</a>
+            <a href="table.html">Aufgabe 13</a>
+        </header>
+        <main>
+            <div class="container">
+                <h1>Text-Formatierung</h1>
+            <p id="formating__absatz">
+                <strong>Lorem</strong> ipsum dolor sit <em>amet</em>,
+                consectetur adipiscing elit. Sed quis molestie felis.
+                <q>Nullam</q> ullamcorper lorem sit amet egestas hendrerit.
+                <strong><em>Nulla</em></strong> malesuada justo lectus, ac maximus augue sollicitudin
+                sodales. <br><br>
+                <del>Donec</del> malesuada massa massa, vel vestibulum
+                sapien euismod eu. <strong><em>Phasellus</em></strong> non risus
+                ac orci feugiat pellentesque. <ins>Fusce</ins> lacinia purus
+                quis libero pharetra ornare. <mark>Suspendisse</mark> porta suscipit diam.<br><br>
+                <q>Nulla</q> leo enim, <del>tempus</del> eu enim quis, imperdiet
+                vulputate mi. <em>Integer</em> mollis justo ac accumsan maximus.
+                <abbr>SED</abbr> lobortis turpis sit amet ligula commodo
+                tristique. Nunc <ins>dapibus</ins> vulputate quam sit amet
+                imperdiet. <mark>Sed</mark> nibh risus, fringilla sed felis sit amet,
+                interdum sodales magna.
+            </p>
+
+            <blockquote id="formating__quote">
+                Maecenas nec ultricies erat. Aliquam mauris massa, finibus eu
+                ipsum quis, volutpat sollicitudin orci. Aenean urna est, finibus
+                id mauris auctor, semper efficitur arcu.
+            </blockquote>
+
+            <code>
+                &lt;!DOCTYPE html &gt;
+                    &lt;html&gt;
+                &lt;head&gt;
+                &lt;meta charset="UTF-8" /&gt;
+                &lt;title>Document&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body>&lt;/body&gt;
+                &lt;/html&gt;
+            </code>
+            <br><br>
+            <code>
+                for(let i = 1; i < 11; i++){ ausgabe += "
+                <tr>
+                    " ; for(let j = 1; j < 11; j++){ ausgabe += "
+                    <td>" + i * j + "</td>
+                    "; } ausgabe += "
+                </tr>
+                " }
+            </code>
+            <br><br>
+            <div>
+                <b>E = mc<sup>2</sup></b><br>
+                <b>H<sub>2</sub>O</b>
+            </div>
+        </div>
+        </main>
+    </body>
+</html>
