@@ -1,0 +1,38 @@
+button{
+    color: rgb(95, 18, 18);
+    font-size: 18px;
+    padding: 10px 30px;
+    background-color: rgb(238, 177, 127);
+    margin: 20px;
+    cursor:pointer;
+}
+button:hover{
+    background-color: rgb(245, 142, 58);
+}
+.design1__header{
+    background-color:rgb(95, 95, 165);
+    color: lightcoral;
+}
+.design1__body{
+    background-color:rgb(183, 153, 211);
+}
+.design1__button{
+    background-color:rgb(222, 222, 247);
+}
+.design1__button:hover{
+    background-color:rgb(214, 62, 181);
+}
+.design2__header{
+    background-color:rgb(77, 131, 15);
+}
+
+.design2__body{
+    background-color:rgb(188, 238, 130);
+}
+
+.design2__button{
+    background-color:rgb(208, 245, 73);
+}
+.design2__button:hover{
+    background-color:rgb(70, 226, 8);
+}

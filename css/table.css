@@ -1,0 +1,40 @@
+.container{
+    display:flex;
+
+}
+table, th, td{
+    border:1px solid brown;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+
+}
+table{
+    min-width: 200px;
+    min-height: auto;
+    margin-right: 20px;
+}
+.r{
+    background-color: red;
+}
+.b{
+    background-color: brown;
+}
+.c{
+    background-color: cornflowerblue;
+}
+.g{
+    background-color:green;
+}
+.o{
+    background-color:orange;
+}
+.w{
+    background-color:white;
+}
+.p{
+    background-color:plum;
+}
+.y{
+    background-color:yellow;
+}

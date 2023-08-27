@@ -1,0 +1,42 @@
+
+body{
+    background-color:rgb(245, 218, 145);
+    
+}
+header{
+    background-color:rgb(252, 32, 17);
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 10px 20px 0px 20px;
+    
+}
+header a{
+    color: white;
+}
+a{
+    font-size: 18px;
+    color: rgb(83, 15, 15);
+    margin-right: 30px;
+    text-decoration: none;
+}
+header a:hover, a[clicked]{
+    color: rgb(83, 15, 15);
+}
+a:active{
+    color: blue;
+}
+.absatz{
+    width: 800px;
+    background-color: rgb(238, 184, 84);
+    font-size: 18px;
+}
+h1{
+    color:rgb(95, 18, 18);
+}
+h3{
+    color:rgb(141, 7, 7);
+}
+nav{
+    background-color:rgb(231, 152, 106);
+    height: 30px;
+}
